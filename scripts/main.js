@@ -30,7 +30,7 @@ miimage.onclick = function (){
         miimage.setAttribute('src', 'imagenes/paisaje.jpg');
     }
 }*/
-/* introdcucir nombre en el textcontet y salgo el nombre mas un mensaje
+/* introdcucir nombre en el textcontet y salgo el nombre mas un mensaje*/
 let miBoton = document.querySelector('button');
 let miTitulo = document.querySelector ('h1');
 function estableceNombreUsuario() {
@@ -50,21 +50,5 @@ function estableceNombreUsuario() {
     }
     miBoton.onclick = function(){
         estableceNombreUsuario();
-    }*/
-    let miBoton = document.querySelector('button');
-    let miTitulo = document.querySelector ('h1');
-    function estableceNombreUsuario() {
-        let miNombre = prompt('Introduzca su nombre');
-        
-        if (!miNombre){
-            estableceNombreUsuario();
-        }
-        else{
-            localStorage.setItem('nombre', miNombre);
-            miTitulo.innerHTML = 'Mozilla es genial,'
-            +nombreAlmacenado;
-        }
     }
-    miBoton.onclick = function(){
-        estableceNombreUsuario();
-    }
+ 
