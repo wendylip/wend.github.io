@@ -1,0 +1,31 @@
+html{
+    background-color: #00539F;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 10px solid black;
+    font-size: 45px;
+  }
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+    font-size: 60px;    /* tamaño de la letra*/
+  }
+  p, li {
+    font-size: 16px;
+    line-height: 2; /*interlineado entre parrafos*/
+    letter-spacing: 1px; /*interlineado entre letras*/
+  }
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+  }
+  
